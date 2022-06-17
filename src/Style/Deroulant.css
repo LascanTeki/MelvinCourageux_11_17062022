@@ -1,14 +1,21 @@
 .Deroulant {
 	display: flex;
     width: 45%;
-    position: relative;
     margin-top: 43px;
     color: #FF6060;
     height: 298px;
     font-size: 18px;
     justify-content: center;
-   
+    flex-direction: column;
+    border-radius: 10px 10px 25px 25px;
+    background-color: #F6F6F6;
+    height:fit-content
 }
+
+.Propos .Deroulant {
+    width: 85%;
+}
+
 
 .title {
 	background-color: #FF6060;
@@ -19,9 +26,7 @@
     display: flex;
     justify-content: space-between;
     height: 52px;
-    position: absolute;
     z-index: 2;
-    width: 100%;
 }
 
 .content{
@@ -29,10 +34,8 @@
     display: flex;
     align-items: center;
     height: 249px;
-    background-color: #F6F6F6;
-    border-radius: 0px 0px 25px 25px;
-    position: absolute;
-    width: 100%;
+    
+    
     bottom: 10px;
 }
 
@@ -57,14 +60,11 @@
     transform: rotate(0.5turn) scale(1, 0.5);
 }
 
-.Close{
-    height: 52px;
-}
 
 @media screen and (max-width: 540px) {
     .Deroulant {
 
-        width: 58%;
+        width: 100%;
         font-size: 13px;
         margin-top: 20px;
     }
@@ -82,8 +82,5 @@
     }
     .roll{
         font-size: 40px;
-    }
-    .Open{
-        height: 185px;
     }
   }

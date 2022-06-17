@@ -8,13 +8,17 @@
     text-align: center;
 }
 
-.ban{
+.ban, .bansize{
     height: 15.486vw;
     width: 100%;
     object-fit: cover;
     border-radius: 25px;
     -webkit-filter: brightness(75%);
+    filter: brightness(75%);
+}
 
+.bansize{
+    height: 223px;
 }
 
 .bantxt{
