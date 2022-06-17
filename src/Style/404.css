@@ -1,0 +1,27 @@
+.error {
+
+    color: #FF6060;
+    font-size: 36px;
+    text-align: center;
+   
+}
+
+.name {
+
+    font-size: 288px;
+    font-weight: 700;
+    padding-top: 90px;
+   
+}
+.error {
+
+    color: #FF6060;
+    font-size: 36px;
+   
+}
+
+.error a{
+    display: block;
+    padding-top: 182px;
+    font-size: 18px;
+}

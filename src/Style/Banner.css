@@ -1,0 +1,44 @@
+
+
+.Banner {
+	border-radius: 25px;
+    height: 15.486vw;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.ban{
+    height: 15.486vw;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    -webkit-filter: brightness(75%);
+
+}
+
+.bantxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 3vw;
+    transform: translate(-50%, -50%);
+    
+}
+
+@media screen and (max-width: 540px) {
+    .Banner {
+        height: 29.6vw;
+        text-align:left;
+        border-radius: 10px;
+    }
+    .ban{
+        height: 29.6vw;
+        border-radius: 10px;
+    }
+    .bantxt{
+        left: 37%;  
+        font-size: 6vw;
+    }
+  }

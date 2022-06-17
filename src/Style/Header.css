@@ -1,0 +1,41 @@
+
+
+.Header {
+	display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    
+}
+a:-webkit-any-link {
+    color: #FF6060;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:-webkit-any-link:hover {
+  
+    text-decoration: underline;
+}
+
+.logo{
+    width: 20%;
+}
+
+@media screen and (max-width: 540px) {
+    nav{
+
+        font-size: 3.2vw;
+        text-transform: uppercase;
+        width: 40%;
+    }
+    .logo{
+        width: 55%;
+    }
+  }

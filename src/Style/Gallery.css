@@ -1,0 +1,41 @@
+.Gallery {
+	display: flex;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    align-items: center;
+    
+}
+
+.Gallery img{
+	width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    height: 415px;
+}
+
+.arrow, .arrow-left {
+    color: white;
+    position: absolute;
+    font-size: 150px;
+    transform: scale(0.5, 1);
+    cursor: pointer;
+}
+.arrow-left{
+    right: 0px;
+    
+}
+
+.number{
+    color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 24px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 540px) {
+    .Gallery img{
+        height: 255px;
+    }
+  }

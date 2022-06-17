@@ -1,0 +1,89 @@
+.Deroulant {
+	display: flex;
+    width: 45%;
+    position: relative;
+    margin-top: 43px;
+    color: #FF6060;
+    height: 298px;
+    font-size: 18px;
+    justify-content: center;
+   
+}
+
+.title {
+	background-color: #FF6060;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.content{
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    height: 249px;
+    background-color: #F6F6F6;
+    border-radius: 0px 0px 25px 25px;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+
+.content ul{
+    margin-block: 0px;
+    list-style-type:none;
+    padding-left:0px ;
+}
+
+.roll{
+    transform: scale(1, 0.5);
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.Close .content{
+	
+   display: none;
+}
+
+.Close .roll{
+    transform: rotate(0.5turn) scale(1, 0.5);
+}
+
+.Close{
+    height: 52px;
+}
+
+@media screen and (max-width: 540px) {
+    .Deroulant {
+
+        width: 58%;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .title {
+        height: 29.93px;
+        border-radius: 5px;
+    }
+    .content{
+        height: 143.32px;
+        
+    }
+    .content span{
+        height: 80px;
+        overflow: scroll;
+    }
+    .roll{
+        font-size: 40px;
+    }
+    .Open{
+        height: 185px;
+    }
+  }
