@@ -10,6 +10,7 @@ function description(props) {
     let rate = [];
     let index;
 
+    //Ajoute un nombre d'etoiles rouges dependant de la variable "rating" et complete les 5 etoiles avec des etoiles grises
     for (index = 0; index < newlist[0].rating; index++) {
         rate[index] = { key: index, value: red }
     }

@@ -6,6 +6,8 @@ function Banner(props) {
     let Ban = props.Ban
     let txt = props.txt
     
+
+    //changes class so media can be different
     if (Ban === "/static/media/Prop.796d007cebdd47cc489b.jpg") {
         sized="size"
     }

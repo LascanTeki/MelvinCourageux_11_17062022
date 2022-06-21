@@ -7,6 +7,7 @@ function Deroulant(props) {
     let content = props.content
     var [clas, changeclass] = useState('Deroulant Close');
 
+    //Roule et deroule element en changeant sa clase
     function roll() {
         if (clas==='Deroulant Open') {
             changeclass(clas = 'Deroulant Close');

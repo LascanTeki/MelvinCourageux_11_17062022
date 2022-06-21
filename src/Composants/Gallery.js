@@ -8,7 +8,7 @@ function Gallery(props) {
 
     var [numb, number] = useState(0);
 
-
+    //Change l'image montrée dans la galerie quand une fleche est cliquée
     function More() {
         if (newlist[0].pictures[numb + 1] !== undefined) {
             number(numb + 1);

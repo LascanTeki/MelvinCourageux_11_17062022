@@ -1,0 +1,33 @@
+.Footer {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    height: 209px;
+    justify-content: space-evenly;
+}
+
+  .copyright{
+    color: white;
+    font-size: 24px;
+  }
+
+  .foot{
+    width: 122px;
+    height: 39.44px;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width: 540px) {
+    .copyright{
+        color: white;
+        font-size: 12px;
+        margin-top: 34px;
+      }
+    .Footer{
+      justify-content: center;
+    }
+  }
