@@ -39,10 +39,21 @@
     bottom: 10px;
 }
 
+.content span{
+    height: 190px;
+    overflow-y:auto;
+    display: flex;
+    width: 100%;
+}
+
+
 .content ul{
     margin-block: 0px;
     list-style-type:none;
     padding-left:0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .roll{

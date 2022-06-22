@@ -9,7 +9,7 @@ function Gallery(props) {
     var [numb, number] = useState(0);
 
     //Change l'image montrée dans la galerie quand une fleche est cliquée
-    function More() {
+    function more() {
         if (newlist[0].pictures[numb + 1] !== undefined) {
             number(numb + 1);
         }
@@ -17,7 +17,7 @@ function Gallery(props) {
             number(numb = 0)
         }
     }
-    function Less() {
+    function less() {
         if (newlist[0].pictures[numb - 1] !== undefined) {
             number(numb - 1);
         }
@@ -29,7 +29,7 @@ function Gallery(props) {
     if (newlist[0].pictures.length !== 1) {
         return (
             <div className='Gallery'>
-                <div className='number'>{numb+1}/{newlist[0].pictures.length}</div><div className='arrow' onClick={Less}>&lt;</div><div className='arrow-left' onClick={More}>&gt;</div><img src={newlist[0].pictures[numb]} alt={newlist[0].title} />
+                <div className='number'>{numb+1}/{newlist[0].pictures.length}</div><div className='arrow' onClick={less}>&lt;</div><div className='arrow-left' onClick={more}>&gt;</div><img src={newlist[0].pictures[numb]} alt={newlist[0].title} />
             </div>
         )
     }
