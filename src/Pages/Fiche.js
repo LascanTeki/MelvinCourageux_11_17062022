@@ -1,6 +1,5 @@
 import Gallery from '../Composants/Gallery'
 import Description from '../Composants/Description'
-import Header from '../Composants/Header'
 import list from '../Composants/List'
 import Deroulant from '../Composants/Deroulant';
 
@@ -25,7 +24,7 @@ function Fiche() {
     ))}</ul>)
 
     return (
-        <div><Header/><Gallery newlist={newlist}/><Description newlist={newlist}/><div className='flexed'><Deroulant content={newlist[0].description} title="Description" /><Deroulant content={equipement} title="Equipements" /></div></div>
+        <div><Gallery newlist={newlist}/><Description newlist={newlist}/><div className='flexed'><Deroulant content={newlist[0].description} title="Description" /><Deroulant content={equipement} title="Equipements" /></div></div>
     )
   }
   

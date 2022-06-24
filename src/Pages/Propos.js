@@ -1,5 +1,4 @@
 import Banner from '../Composants/Banner'
-import Header from '../Composants/Header'
 import Ban from '../Assets/Prop.jpg'
 import Deroulant from '../Composants/Deroulant';
 
@@ -10,7 +9,7 @@ let Sécurité ="La sécurité est la priorité de Kasa. Aussi bien pour nos hô
 
 function Propo() {
     return (
-        <div><Header/><Banner txt="" Ban={Ban}/><div className='Propos'><Deroulant content={fiabilité} title="Fiabilité" /><Deroulant content={Respect} title="Respect" /><Deroulant content={Service} title="Service" /><Deroulant content={Sécurité} title="Sécurité" /></div></div>
+        <div><Banner txt="" Ban={Ban}/><div className='Propos'><Deroulant content={fiabilité} title="Fiabilité" /><Deroulant content={Respect} title="Respect" /><Deroulant content={Service} title="Service" /><Deroulant content={Sécurité} title="Sécurité" /></div></div>
     )
   }
 
