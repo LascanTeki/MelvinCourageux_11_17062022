@@ -5,8 +5,9 @@ footer {
     align-items: center;
     flex-direction: column;
     position: absolute;
+    clear: both;
     left: 0px;
-    height: 209px;
+    height: 209px; 
     justify-content: space-evenly;
     margin-top: 100px;
 }
@@ -20,15 +21,4 @@ footer {
     width: 122px;
     height: 39.44px;
     margin-top: 20px;
-  }
-
-  @media screen and (max-width: 540px) {
-    .copyright{
-        color: white;
-        font-size: 12px;
-        margin-top: 34px;
-      }
-    .Footer{
-      justify-content: center;
-    }
   }

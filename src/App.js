@@ -5,7 +5,7 @@ import Fiche from './Pages/Fiche'
 import Propos from './Pages/Propos'
 import Er from './Pages/404'
 import Header from './Composants/Header'
-import Footer from './Composants/Footer'
+
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path="/Propos" element={<Propos/>} />
           <Route path="/*" element={<Er/>} />
         </Routes>
-        <Footer/>
+        
       </div>
     )
   }
