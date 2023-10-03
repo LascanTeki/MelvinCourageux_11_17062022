@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MelvinCourageux_11_17062022/static/css/main.5168ee1d.css",
-    "main.js": "/MelvinCourageux_11_17062022/static/js/main.d0d65e97.js",
+    "main.js": "/MelvinCourageux_11_17062022/static/js/main.fb68a2da.js",
     "static/media/Prop.jpg": "/MelvinCourageux_11_17062022/static/media/Prop.796d007cebdd47cc489b.jpg",
     "static/media/Banner.jpg": "/MelvinCourageux_11_17062022/static/media/Banner.0f820b85d9a6a7e177b3.jpg",
     "static/media/footer.jpg": "/MelvinCourageux_11_17062022/static/media/footer.fadf04c354523754d388.jpg",
     "static/media/logo.jpg": "/MelvinCourageux_11_17062022/static/media/logo.15f70b44cd632d526af0.jpg",
     "index.html": "/MelvinCourageux_11_17062022/index.html",
     "main.5168ee1d.css.map": "/MelvinCourageux_11_17062022/static/css/main.5168ee1d.css.map",
-    "main.d0d65e97.js.map": "/MelvinCourageux_11_17062022/static/js/main.d0d65e97.js.map"
+    "main.fb68a2da.js.map": "/MelvinCourageux_11_17062022/static/js/main.fb68a2da.js.map"
   },
   "entrypoints": [
     "static/css/main.5168ee1d.css",
-    "static/js/main.d0d65e97.js"
+    "static/js/main.fb68a2da.js"
   ]
 }
