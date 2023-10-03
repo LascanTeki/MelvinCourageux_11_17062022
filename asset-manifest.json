@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Projet_Laravel_Melvin_Courageux/static/css/main.5168ee1d.css",
+    "main.js": "/Projet_Laravel_Melvin_Courageux/static/js/main.c8739b2f.js",
+    "static/media/Prop.jpg": "/Projet_Laravel_Melvin_Courageux/static/media/Prop.796d007cebdd47cc489b.jpg",
+    "static/media/Banner.jpg": "/Projet_Laravel_Melvin_Courageux/static/media/Banner.0f820b85d9a6a7e177b3.jpg",
+    "static/media/footer.jpg": "/Projet_Laravel_Melvin_Courageux/static/media/footer.fadf04c354523754d388.jpg",
+    "static/media/logo.jpg": "/Projet_Laravel_Melvin_Courageux/static/media/logo.15f70b44cd632d526af0.jpg",
+    "index.html": "/Projet_Laravel_Melvin_Courageux/index.html",
+    "main.5168ee1d.css.map": "/Projet_Laravel_Melvin_Courageux/static/css/main.5168ee1d.css.map",
+    "main.c8739b2f.js.map": "/Projet_Laravel_Melvin_Courageux/static/js/main.c8739b2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5168ee1d.css",
+    "static/js/main.c8739b2f.js"
+  ]
+}
