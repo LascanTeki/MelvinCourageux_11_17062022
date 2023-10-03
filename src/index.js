@@ -6,5 +6,5 @@ import { BrowserRouter } from "react-router-dom";
 import Footer from './Composants/Footer'
 
 ReactDOM.render(
-<BrowserRouter><App/><Footer/></BrowserRouter>,
+<BrowserRouter basename="/MelvinCourageux_11_17062022"><App/><Footer/></BrowserRouter>,
 document.getElementById("root"))
